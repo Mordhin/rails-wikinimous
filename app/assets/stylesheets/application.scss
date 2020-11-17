@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap/scss/bootstrap";
+
+ .navbar {
+   height: 50px;
+   background-color: #eeeeee;
+   border-bottom: 1px #cccccc solid;
+   display: flex;
+   align-items: center;
+
+   h1 {
+     font-size: 24px;
+     color: #4f4846;
+     display: flex;
+     align-items: center;
+     margin: 0;
+   }
+
+   p {
+    margin: 0;
+    .link {
+      text-decoration: none;
+      color: #4f4846;
+    }
+    
+   }
+ }
+
+ .container {
+   margin-left: 200px;
+   margin-top: 50px;
+ }
